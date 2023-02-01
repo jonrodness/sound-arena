@@ -1,0 +1,13 @@
+@import '../mixins.scss';
+
+.u-fullWidth {
+    width: 100%;
+}
+
+.u-fullHeight {
+    height: 100%;
+}
+
+.u-iconWidth {
+    @include width(2rem);
+}

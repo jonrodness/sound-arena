@@ -1,0 +1,3 @@
+    SELECT losing_track_id AS losingTrackId, winning_track_id AS winningTrackId, entered_track_id AS enteredTrackId
+    FROM matchup
+    WHERE genre = 'rap' AND timestamp_added BETWEEN curdate()-1 AND curdate();

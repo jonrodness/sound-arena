@@ -1,0 +1,7 @@
+@import '../variables.scss';
+
+.m-competitionStats {
+    & > div {
+        background-color: $lightGrey5;
+    }
+}

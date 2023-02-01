@@ -1,0 +1,4 @@
+/* Get all yesterday awards for track id=219 */
+SELECT * 
+FROM award
+WHERE track_id=219 AND date BETWEEN curdate()-1 AND curdate();

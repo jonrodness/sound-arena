@@ -1,0 +1,8 @@
+.m-backdrop {
+  z-index: 1; }
+  .m-backdrop__card {
+    margin: 20px;
+    padding: 20px; }
+  .m-backdrop .MuiBackdrop-root {
+    top: 56px !important;
+    bottom: 56px !important; }

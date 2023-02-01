@@ -1,0 +1,8 @@
+create view matchup_1_day as select * from matchup where DATE_SUB(CURDATE(), INTERVAL 1 DAY) > DATE(timestamp_added) AND DATE(timestamp_added)  >= DATE_SUB(CURDATE(), INTERVAL 1 DAY);
+
+create view matchup_7_day as select * from matchup where DATE_SUB(CURDATE(), INTERVAL 1 DAY) > DATE(timestamp_added) AND DATE(timestamp_added)  >= DATE_SUB(CURDATE(), INTERVAL 7 DAY);
+
+create view matchup_10_day as select * from matchup where DATE_SUB(CURDATE(), INTERVAL 1 DAY) > DATE(timestamp_added) AND DATE(timestamp_added)  >= DATE_SUB(CURDATE(), INTERVAL 10 DAY);
+
+create view matchup_30_day as select * from matchup where DATE_SUB(CURDATE(), INTERVAL 1 DAY) > DATE(timestamp_added) AND DATE(timestamp_added)  >= DATE_SUB(CURDATE(), INTERVAL 30 DAY);
+

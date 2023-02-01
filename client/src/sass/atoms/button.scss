@@ -1,0 +1,74 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+.a-mdButton.md {
+    @include marginHorizontal;
+}
+
+.a-iconButton {
+    background-color: $transparent;
+    border: none;
+    cursor: pointer;
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        color: $darkGrey2;
+    }
+
+    &--noLeftMargin {
+        margin-left: 0;
+    }
+
+    &--noLeftPadding {
+        padding-left: 0;
+    }    
+
+    &--medium {
+        width: 40px;
+        
+        svg {
+            width: 40px;
+            height: 40px;
+        }       
+    }
+z
+    &--outline:not(:disabled) {
+        & svg {
+            fill: $white;
+            stroke: $black;
+            stroke-width: 2px;
+        }
+    }
+
+    &--orange:not(:disabled) {
+        color: $orange;
+    }
+
+    &--red:not(:disabled) {
+        color: $red;
+    }    
+}
+
+.a-button {
+    &--label {
+        // buttons that act as labels should not be greyed out when disabled
+        &:disabled {
+            color: black
+        }
+        // override MUI global class name
+        &.Mui-disabled:disabled {
+            color: black
+        }
+    }
+
+    &--lowercase {
+        &.MuiButton-root {
+            text-transform: none;
+        }
+    }
+}

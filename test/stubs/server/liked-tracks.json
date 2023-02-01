@@ -1,0 +1,26 @@
+{
+    "artists": {
+        "123": {
+            "id": 123,
+            "name": "artistName1"
+        },
+        "456": {
+            "id": 456,
+            "name": "artistName2"
+        }
+    },        
+    "tracks": {
+        "178": {
+            "isLiked": true,
+            "id": 178,
+            "title": "trackTitle1",
+            "artistId": 123
+        },
+        "506": {
+            "isLiked": true,
+            "id": 506,
+            "title": "trackTitle2",
+            "artistId": 456
+        }                    
+    }
+}

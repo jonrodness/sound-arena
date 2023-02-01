@@ -1,0 +1,8 @@
+[
+    {
+        "artistName":"artist name",
+        "artistId": "5678",
+        "trackTitle": "track title",
+        "trackStreamUrl": "track.stream.url"
+    }
+]

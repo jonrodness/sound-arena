@@ -1,0 +1,3 @@
+    SELECT *
+    FROM competition_results
+    WHERE genre = 'rap' AND timestamp_added BETWEEN curdate()-1 AND curdate();

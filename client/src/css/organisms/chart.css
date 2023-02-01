@@ -1,0 +1,13 @@
+.o-chart {
+  width: 80%;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  @media (max-width: 750px) {
+    .o-chart {
+      width: 100%; } }
+  .o-chart__header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }

@@ -1,0 +1,10 @@
+.m-message {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: #000000 .m-message --error;
+    color-background-color: #d32f2f; }
+  .m-message--info {
+    background-color: #dcdcff; }
+  .m-message--success {
+    background-color: #d5ffcf;
+    color: #000000; }

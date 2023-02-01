@@ -1,0 +1,10 @@
+CREATE DATABASE litmus;
+
+USE litmus;
+
+CREATE TABLE matchup (id (int primary key auto increment NOT NULL), winning_track_id (int NOT NULL foreign key), losing_track_id (int NOT NULL foreign key), user_id (int NOT NULL foreign key), timestamp (date NOT NULL), timestamp_added (TIMESTAMP DEFAULT CURRENT_TIMESTAMP));
+
+CREATE TABLE track (id (int primary key auto increment NOT NULL), user_id (int NOT NULL foreign key), name (varchar(40) NOT NULL), stream_url (varchar(40) NOT NULL), date_added (date not null), score (varchar(600)));
+
+CREATE TABLE user (id (int primary key auto increment NOT NULL), name (varchar(40)));
+

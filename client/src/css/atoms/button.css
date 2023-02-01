@@ -1,0 +1,41 @@
+.a-mdButton.md {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.a-iconButton {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer; }
+  .a-iconButton svg {
+    width: 30px;
+    height: 30px; }
+  .a-iconButton:disabled {
+    cursor: not-allowed;
+    color: #2b2b2b; }
+  .a-iconButton--noLeftMargin {
+    margin-left: 0; }
+  .a-iconButton--noLeftPadding {
+    padding-left: 0; }
+  .a-iconButton--medium {
+    width: 40px; }
+    .a-iconButton--medium svg {
+      width: 40px;
+      height: 40px; }
+  z
+.a-iconButton--outline:not(:disabled) svg {
+    fill: #ffffff;
+    stroke: #000000;
+    stroke-width: 2px; }
+  .a-iconButton--orange:not(:disabled) {
+    color: #ffa500; }
+  .a-iconButton--red:not(:disabled) {
+    color: #ff0000; }
+
+.a-button--label:disabled {
+  color: black; }
+
+.a-button--label.Mui-disabled:disabled {
+  color: black; }
+
+.a-button--lowercase.MuiButton-root {
+  text-transform: none; }

@@ -1,0 +1,1 @@
+export { WinnerStageContainer as WinnerStage } from './container'

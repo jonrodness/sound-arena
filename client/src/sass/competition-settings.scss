@@ -1,0 +1,10 @@
+@import './mixins.scss';
+@import './variables.scss';
+
+.competition-settings {
+    @include centerVerticalHorizontal;
+    @include padding;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, $litmusGreenLight , $white);
+    background-color: $litmusGreenLight;
+}

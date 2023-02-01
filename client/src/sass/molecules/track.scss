@@ -1,0 +1,108 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+.m-track {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: $white;
+    height: 60px;
+    box-sizing: border-box;
+    @include margin(0.5rem);
+
+    &__audioStatus {
+        @include marginHorizontal(0.5rem);
+    }
+
+    &__playbackBtn {
+        align-self: center;
+        display: inline-block;     
+        position: relative;    
+        z-index: 1;     
+        padding: 1em;      
+    }
+
+    &__playbackBtn, &__playbackBtn.button {
+        button {
+            align-self: center;
+            display: inline-block;     
+            position: relative;    
+            z-index: 1;     
+            padding: 1em;     
+        }
+    }
+
+    &__finishMsg {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }    
+
+    &__group {
+        @include marginVertical;
+        display: flex;
+        justify-content: space-around;
+        min-width: 40%;
+    }
+
+    &__info {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: $breakpoint2) {
+            @include marginLeft;
+        }
+
+        @media (min-width: $breakpoint2) {
+            text-align: center;
+        }
+    }
+
+    &__row {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+
+        &--justifyLeft {
+            justify-content: left;
+        }     
+    }
+
+    &__loadBtnContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &--2 {
+        @media (min-width: $breakpoint2) {
+            .m-track__info {
+                order: 3;
+            }
+
+            .m-track__playbackBtn {
+                order: 2;
+            }
+
+            .m-track__selectWinnerBtn {
+                order: 4;
+            }
+
+            .m-track__audioStatus {
+                order: 1;
+            }
+        }
+    }
+
+    a {
+        color: $white;
+    }
+}
+
+.m-track__info {
+    // This is important because competition controls cannot be pushed out of view
+    overflow: hidden !important;
+}

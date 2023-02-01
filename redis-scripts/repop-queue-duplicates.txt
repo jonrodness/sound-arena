@@ -1,0 +1,7 @@
+del rap-priority
+del rap-backup
+
+rpush rap-priority 82|4
+rpush rap-priority 82|4
+rpush rap-priority 82|4
+rpush rap-priority 82|4

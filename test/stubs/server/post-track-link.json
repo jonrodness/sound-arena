@@ -1,0 +1,12 @@
+{
+    "tracks": {
+        "1234": {
+            "links":[
+                {
+                    "url": "https://fakedomain.com",
+                    "type":"spotify"
+                }
+            ]
+        }
+    }
+}

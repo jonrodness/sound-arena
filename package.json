@@ -1,0 +1,69 @@
+{
+  "name": "sound-arena-service",
+  "version": "1.0.0",
+  "scripts": {
+    "client-dev": "cd client && yarn dev",
+    "build:qa": "cd client && yarn build:qa",
+    "build:prod": "cd client && yarn build:prod",
+    "start": "node ./server/index.js",
+    "server-dev": "nodemon server/index.js",
+    "server-debug": "nodemon --inspect server/index.js",
+    "dev": "concurrently --kill-others-on-fail \"redis-server\" \"yarn server-dev\" \"yarn client-dev\"",
+    "debug": "concurrently --kill-others-on-fail \"redis-server\" \"yarn server-debug\" \"yarn client-dev\"",
+    "prod-debug": "concurrently --kill-others-on-fail \"redis-server\" \"nodemon build/server/index.js\" \"yarn client-dev\"",
+    "test": "jest",
+    "clear-yesterday-matchups": "mysql soundarena -ppassword < /../../../../../db/clear_yesterday_matchups.txt",
+    "clear-yesterday-awards": "mysql soundarena -ppassword < /../../../././db/clear_yesterday_awards.txt",
+    "clear-yesterday-competition_results": "mysql soundarena -ppassword < /../../../../../db/clear_yesterday_competition_results.txt",
+    "populate-old-skipped-tracks": "mysql soundarena -ppassword < /../../../../../db/populate_previously_skipped_tracks.txt",
+    "populate-yesterday-matchups": "mysql soundarena -ppassword < /../../../../../db/populate_yesterday_matchups.txt",
+    "print-yesterday-matchups": "echo \"YESTERDAY'S MATCHUPS:\" && mysql soundarena -ppassword < /../../../../../db/get_yesterday_matchups.txt",
+    "print-track-219-awards": "echo TRACK 219 AWARDS: && mysql soundarena -ppassword < /../../../../../db/get_awards_user_219.txt",
+    "setup-data": "yarn clear-yesterday-matchups && yarn clear-yesterday-awards && yarn clear-yesterday-competition_results && yarn populate-yesterday-matchups && yarn populate-old-skipped-tracks && yarn print-track-219-awards && yarn print-yesterday-matchups",
+    "force-reset": "mysql soundarena -ppassword < /../../../../../db/set_user_force_reset.txt ",
+    "populate-queue": "cat redis-scripts/repopulate-queue-entries.txt | redis-cli --pipe"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "*/automation"
+    ],
+    "setupFiles": [
+      "dotenv/config"
+    ]
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.7",
+    "aws-sdk": "^2.382.0",
+    "bcrypt": "^3.0.3",
+    "bluebird": "^3.5.3",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.2",
+    "file-type": "^10.7.0",
+    "firebase-admin": "^8.6.0",
+    "husky": "^4.2.5",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "multiparty": "^4.2.1",
+    "music-metadata": "^3.5.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "redis": "^2.8.0",
+    "reselect": "^4.0.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "jest": "^24.1.0",
+    "supertest": "^4.0.2",
+    "ts-node-dev": "^1.0.0"
+  }
+}

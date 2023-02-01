@@ -1,0 +1,15 @@
+{
+    "tracks": {
+        "1234": {
+            "id": "1234",
+            "title": "track title",
+            "artistId": "5678"
+        }
+    },
+    "artists": {
+        "5678": {
+            "id": "5678",
+            "name": "artist name"
+        }
+    }    
+}

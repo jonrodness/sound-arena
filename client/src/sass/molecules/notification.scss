@@ -1,0 +1,32 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.m-notification {
+    &.m-notification {
+        &--error {
+            background-color: $errorRed;
+        }
+    
+        &--info {
+            background-color: $infoBlue;
+        }
+            
+        &--success {
+            background-color: $successGreen;
+        }
+    }
+
+    &__msg {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    &__textGroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

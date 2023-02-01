@@ -1,0 +1,2 @@
+/* Clear yesterday's tracks */
+DELETE FROM matchup where timestamp_added BETWEEN curdate()-1 AND curdate();

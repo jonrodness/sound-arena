@@ -1,0 +1,1 @@
+export { CompetitionSelectionContainer as CompetitionSelection } from './container'

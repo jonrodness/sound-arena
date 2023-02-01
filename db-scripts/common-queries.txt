@@ -1,0 +1,30 @@
+# Manual Matchup add
+insert into matchup (winning_track_id, losing_track_id, user_id) VALUES (84, 86, 3);
+
+# Get winning percentage for all tracks in matchup:
+
+SELECT winning_track_id as id, u.name as artist, t.name as title,
+    (
+        (
+            SELECT count(winning_track_id) 
+            FROM matchup m2 
+            WHERE m2.winning_track_id = m1.winning_track_id
+        ) / 
+        (
+            (
+                SELECT count(winning_track_id) 
+                FROM matchup m3 
+                WHERE m3.winning_track_id = m1.winning_track_id
+            ) + 
+            (
+                SELECT count(losing_track_id) 
+                FROM matchup m4 
+                WHERE m4.losing_track_id = m1.winning_track_id
+            )
+        )
+    ) * 100
+    AS score
+    FROM matchup m1, track t, user u,
+    WHERE t.id = m1.winning_track_id
+        AND u.id = t.user_id
+        AND DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= timestamp_added group by winning_track_id order by score desc;

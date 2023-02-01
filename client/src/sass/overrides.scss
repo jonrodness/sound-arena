@@ -1,0 +1,132 @@
+@import './variables.scss';
+
+.MuiTypography {
+    &-h1,
+    &-h2,
+    &-h3,
+    &-h4,
+    &-h5,
+    &-h6,
+    &-subtitle1,
+    &-subtitle2,
+    &-body1,
+    &-body2,
+    &-caption {
+        font-family: 'Mulish', sans-serif !important;
+    }
+}
+
+.MuiButton-containedPrimary {
+    color: $black !important;
+    background-color: $yellow !important;
+
+    &:hover {
+        background-color: $primaryHover !important;
+    }
+
+    &:disabled {
+        color: rgba(0, 0, 0, 0.26) !important;
+        box-shadow: none !important;
+        background-color: rgba(0, 0, 0, 0.12) !important;
+    }
+}
+
+.MuiButton-containedSecondary {
+    color: $black !important;
+    background-color: $secondary !important;
+
+    &:hover {
+        background-color: $secondaryHover !important;
+    }
+
+    &:disabled {
+        color: rgba(0, 0, 0, 0.26) !important;
+        box-shadow: none !important;
+        background-color: rgba(0, 0, 0, 0.12) !important;
+    }
+}
+
+.MuiStepper-root.MuiStepper-horizontal {
+    padding: 1rem;
+}
+
+.MuiMobileStepper-progress {
+    width: 100% !important;
+}
+
+.MuiMobileStepper-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.MuiTabs-root {
+    margin-top: 0 !important;
+}
+
+.MuiTypography-subtitle2 {
+    font-weight: 700 !important;
+}
+
+.MuiMobileStepper-root {
+    background: #ffffff !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.MuiDialogTitle-root {
+    padding-top: 0 !important;
+}
+
+.firebaseui-id-page-sign-in {
+    h1.firebaseui-title {
+        visibility: hidden;
+    }
+    
+    h1.firebaseui-title:after {
+        content: "Sign in or sign up with email";
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        padding: 25px;
+        top: 0;
+    }
+        
+    .firebaseui-card-header {
+        border: none !important;
+    }
+}
+
+// .a-competitionHeaderMsg .MuiTypography-root {
+//     font-weight: 900 !important;
+// }
+
+
+.m-progressBar .MuiLinearProgress-barColorPrimary {
+    background-color: #b3ff00 !important;
+}
+
+.MuiSnackbar-anchorOriginBottomCenter {
+    bottom: 60px !important;
+}
+
+.MuiTypography-caption {
+    word-break: normal !important;
+}
+// .m-progressBar.s0 .MuiLinearProgress-barColorPrimary {
+//     background-color: #ff0000 !important;
+// }
+
+// .m-progressBar.s1 .MuiLinearProgress-barColorPrimary {
+//     background-color: #ff5e00 !important;
+// }
+
+// .m-progressBar.s2 .MuiLinearProgress-barColorPrimary {
+//     background-color: #ffd900 !important;
+// }
+
+// .m-progressBar.s3 .MuiLinearProgress-barColorPrimary {
+//     background-color: #b3ff00 !important;
+// }
+
+// .m-progressBar.s4 .MuiLinearProgress-barColorPrimary {
+//     background-color: #1fff00 !important;
+// }

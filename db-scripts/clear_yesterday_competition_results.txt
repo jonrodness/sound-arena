@@ -1,0 +1,3 @@
+/* Clear all yesterday's competition_results */
+DELETE FROM competition_results 
+WHERE date BETWEEN curdate()-1 AND curdate();

@@ -1,0 +1,59 @@
+del rock-priority n
+rpush rock-priority 386|339 n
+rpush rock-priority 380|335 n
+rpush rock-priority 396|343 n
+rpush rock-priority 372|325 n
+rpush rock-priority 378|335 n
+rpush rock-priority 399|343 n
+rpush rock-priority 369|325 n
+rpush rock-priority 390|339 n
+rpush rock-priority 377|335 n
+rpush rock-priority 400|343 n
+rpush rock-priority 370|325 n
+rpush rock-priority 391|339 n
+rpush rock-priority 376|335 n
+rpush rock-priority 410|343 n
+rpush rock-priority 388|339 n
+rpush rock-priority 374|335 n
+rpush rock-priority 411|343 n
+rpush rock-priority 389|339 n
+rpush rock-priority 381|335 n
+rpush rock-priority 384|339 n
+rpush rock-priority 382|335 n
+rpush rock-priority 392|339 n
+rpush rock-priority 393|343 n
+rpush rock-priority 367|325 n
+rpush rock-priority 383|339 n
+rpush rock-priority 375|335 n
+rpush rock-priority 394|343 n
+rpush rock-priority 383|339 n
+rpush rock-priority 373|335 n
+rpush rock-priority 395|343 n
+rpush rock-priority 368|325 n
+rpush rock-priority 385|339 n
+rpush rock-priority 375|335 n
+rpush rock-priority 397|343 n
+rpush rock-priority 387|339 n
+rpush rock-priority 379|335 n
+rpush rock-priority 398|343 n
+rpush rock-priority 371|325 n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

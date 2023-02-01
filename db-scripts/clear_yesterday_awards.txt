@@ -1,0 +1,3 @@
+/* Clear all yesterday's awards */
+DELETE FROM award 
+WHERE date BETWEEN curdate()-1 AND curdate();

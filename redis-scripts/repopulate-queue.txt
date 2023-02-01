@@ -1,0 +1,19 @@
+del litmus-queue
+rpush litmus-queue 82
+rpush litmus-queue 83
+rpush litmus-queue 84
+rpush litmus-queue 85
+rpush litmus-queue 86
+rpush litmus-queue 87
+rpush litmus-queue 88
+rpush litmus-queue 89
+rpush litmus-queue 90
+rpush litmus-queue 91
+rpush litmus-queue 92
+rpush litmus-queue 93
+rpush litmus-queue 94
+rpush litmus-queue 95
+rpush litmus-queue 96
+rpush litmus-queue 97
+rpush litmus-queue 98
+rpush litmus-queue 99

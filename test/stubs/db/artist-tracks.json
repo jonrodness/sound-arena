@@ -1,0 +1,14 @@
+[ 
+    {
+        "id": 178,
+        "stream_url": "/stream/url1",
+        "name": "title1",
+        "user_id": 1234  
+    }, 
+    {
+        "id": 506,
+        "stream_url": "/stream/url2",
+        "name": "title2",
+        "user_id": 1234  
+    }
+]

@@ -1,0 +1,69 @@
+.m-track {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 0.5rem; }
+  .m-track__audioStatus {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; }
+  .m-track__playbackBtn {
+    align-self: center;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1em; }
+  .m-track__playbackBtn button, .m-track__playbackBtn.button button {
+    align-self: center;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1em; }
+  .m-track__finishMsg {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%; }
+  .m-track__group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    min-width: 40%; }
+  .m-track__info {
+    flex-direction: column;
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 750px) {
+      .m-track__info {
+        margin-left: 1rem; } }
+    @media (min-width: 750px) {
+      .m-track__info {
+        text-align: center; } }
+  .m-track__row {
+    flex-direction: row;
+    display: flex;
+    align-items: center; }
+    .m-track__row--justifyLeft {
+      justify-content: left; }
+  .m-track__loadBtnContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  @media (min-width: 750px) {
+    .m-track--2 .m-track__info {
+      order: 3; }
+    .m-track--2 .m-track__playbackBtn {
+      order: 2; }
+    .m-track--2 .m-track__selectWinnerBtn {
+      order: 4; }
+    .m-track--2 .m-track__audioStatus {
+      order: 1; } }
+  .m-track a {
+    color: #ffffff; }
+
+.m-track__info {
+  overflow: hidden !important; }

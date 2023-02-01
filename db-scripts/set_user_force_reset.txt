@@ -1,0 +1,21 @@
+/* Set competition state to `force reset` for user with id = 46 (jon.rodness@gmail.com) */
+
+UPDATE user SET 
+    competition_force_reset = 1,
+    competition_track_1_id = NULL,
+    competition_track_2_id = NULL,
+    competition_track_1_is_played = 0,
+    competition_track_2_is_played = 0,
+    competition_winner_is_played = 0,
+    competition_winner_key = NULL,
+    competition_track_1_start = NULL,
+    competition_track_2_start = NULL,
+    competition_matchup_duration = 1,
+    competition_genre = NULL,
+    competition_entered_track_id = NULL,
+    competition_timestamp_start = NULL,
+    competition_tracks_checked_out = 0,
+    competition_winner_artist_name = NULL,
+    competition_winner_track_title = NULL,
+    competition_winner_artist_id = NULL
+WHERE id = 46;

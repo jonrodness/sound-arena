@@ -1,0 +1,25 @@
+.a-boundary {
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  flex-grow: 1;
+  align-items: center; }
+  .a-boundary__center {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .a-boundary__line {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    height: 1.5px; }
+
+.a-boundaryLine {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: #ffffff;
+  border: none;
+  height: 1.5px; }
+  .a-boundaryLine--grey {
+    background-color: #9b9b9b; }

@@ -1,0 +1,42 @@
+eval 
+"
+function isSameArtist(trackKey)
+    if redis.call('HGET', trackKey, 'artistId') == ARG[1] then 
+        return true
+    else 
+        return false
+end
+
+function restoreTrackId(trackId)
+    if trackId then
+        redis.call('LPUSH', KEYS[1], trackId)
+end
+
+-- Lua scripts are atomic on redis instance, meaning only
+-- one script can execute at a time, so it's not a performance
+-- issue that many of the track ids could be temporarily poppedTrackId
+-- while finding the next valid track (although its not the most performant design
+-- to block the queue with potentially O(n))
+
+function getNextValidTrack(poppedTrackId)
+    if redis.call('LLEN', KEYS[1]) > 0 then
+        local trackId = redis.call('LPOP', KEYS[1])
+        local trackKey = 'track:' .. trackId
+        if not isSameArtist(trackKey) then -- Add all rules to this conditional
+            -- track is valid
+            restoreTrackId(poppedTrackId)
+            return trackId
+        else 
+            local validTrackId = getNextValidTrack(trackId)
+            restoreTrackId(poppedTrackId)
+            return validTrackId
+    else
+        restoreTrackId(poppedTrackId)
+        return nil
+end
+
+
+return getNextValidTrack(nil)
+"
+
+1 litmus-queue {{INSERT CONSUMER TRACK ID}}

@@ -1,0 +1,56 @@
+{
+    "tracks": {
+        "1234": {
+            "awardGroups": [
+                {
+                    "title": "Top 10%",
+                    "id": "top10Percent",
+                    "awards": [
+                        {
+                            "date": "2020-06-19T04:00:00.000Z",
+                            "wins": 12,
+                            "losses": 0,
+                            "place": 1,
+                            "totalParticipants": 100,
+                            "genre": "rap",
+                            "id": 1,
+                            "link": "http://localhost:3000/track/1234?i=0&id=1&a=f8da&v=1234#links"
+                        }
+                    ]
+                },
+                {
+                    "title": "Top 25%",
+                    "id": "top25Percent",
+                    "awards": [
+                        {
+                            "date": "2020-06-20T04:00:00.000Z",
+                            "wins": 12,
+                            "losses": 11,
+                            "place": 25,
+                            "totalParticipants": 100,
+                            "genre": "rap",
+                            "id": 2,
+                            "link": "http://localhost:3000/track/1234?i=0&id=2&a=f8da&v=1234#links"
+                        }                        
+                    ]
+                },
+                {
+                    "title": "Top 50%",
+                    "id": "top50Percent",
+                    "awards": [
+                        {
+                            "date": "2020-06-21T04:00:00.000Z",
+                            "wins": 12,
+                            "losses": 11,
+                            "place": 50,
+                            "totalParticipants": 100,
+                            "genre": "rap",
+                            "id": 3,
+                            "link": "http://localhost:3000/track/1234?i=0&id=3&a=f8da&v=1234#links"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

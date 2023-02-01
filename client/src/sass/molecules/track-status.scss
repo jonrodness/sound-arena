@@ -1,0 +1,12 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+.m-trackStatus {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    &__timeGroup {
+        & div {}
+    }
+}

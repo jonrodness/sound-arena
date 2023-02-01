@@ -1,0 +1,16 @@
+{ 
+    "tracks": {
+        "178": {
+            "id": 178,
+            "streamUrl": "/stream/url1",
+            "title": "title1",
+            "artistId": 1234        
+        },
+        "506": {
+            "id": 506,
+            "streamUrl": "/stream/url2",
+            "title": "title2",
+            "artistId": 1234        
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+.o-matchupInfo {
+    display: flex;
+    flex-direction: column;
+    @include padding;
+
+    &.MuiPaper-root {
+        @include borderMixin;
+        color: $black;
+        background-image: linear-gradient(to right, $secondary , $offPrimary);
+        background-color: #00ffaa;
+        box-shadow: none;
+    }
+    
+    &__trackInfo {
+        display: flex;
+        flex-direction: column;
+    }
+}

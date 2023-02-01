@@ -1,0 +1,355 @@
+/* New Skipped tracks: 141 */
+/* Old skipped tracks: 240, 239 */
+
+/* Minimum entries reached, minumum plays reached/*
+/* Track 219 - 10 entries, 10 wins, 0 losses */ -
+/* Track 116 - 10 entries, 12 wins, 6, losses */
+/* Track 213 - 10 entries, 0 wins, 10 losses */
+
+/* Minimum entries reached, minumum plays NOT reached/*
+/* Track 236 - 10 entries, 5 wins, 0 losses */
+
+/* Minimum entries NOT reached, minumum plays reached/*
+/* Track 87 - 9 entries, 15 wins, 3 losses */
+
+/* Minimum entries NOT reached, minumum plays NOT reached/*
+/* Track 88 - 9 entries, 2 wins, 3 losses */
+
+
+/* Clear yesterday's tracks */
+DELETE FROM matchup where timestamp_added BETWEEN curdate()-1 AND curdate();
+
+/************************** RAP *****************************/
+
+/* 10 entries for track 219 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 219);
+
+/* 10 wins for 219 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+
+/* 10 entries for 116 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (-1, -1, curdate()-1, 46, 'track2', 'rap', 116);
+
+/* 12 wins for 116 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, -1, curdate()-1, 46, 'track2', 'rap', -1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, -1, curdate()-1, 46, 'track2', 'rap', 219);
+
+
+
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (0, 213, curdate()-1, 46, 'track2', 'rap', 219);
+
+/* 10 wins for track 219 and 10 entries for track 116 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'rap', 116);
+
+/* 10 matchups for 116 and 10 entries for track 216 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 216);
+
+/* 10 matchups track 236 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'rap', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'rap', 236);
+
+/* 10 entries for track 87 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'rap', 87);
+
+/* 10 matchups for track 87, 10 matchups for track 187, and 10 entries for track 93 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'rap', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'rap', 93);
+
+/* 10 matchups for track 150, 10 matchups for track 148, and 10 entries for track 87 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'rap', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'rap', 87);
+
+/* 10 matchups for track 122, 10 matchups for track 123, and 10 entries for track 150 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'rap', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'rap', 150);
+
+/* 10 matchups for track 104, 10 matchups for track 105, and 10 entries for track 122 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 122);
+
+/* NEW SKIPPED TRACK: 10 entries for track 141 with no plays */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 141);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'rap', 141);
+
+/* PREVIOUSLY SKIPPED TRACK: 7 plays for track 240 for skipped track to have enough plays */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 240, curdate()-1, 45, 'track2', 'rap', 116);
+
+
+/************************** EDM *****************************/
+
+/* 10 entries for track 219 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 219);
+
+/* 10 wins for track 219 and 10 entries for track 116 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 213, curdate()-1, 43, 'track2', 'edm', 116);
+
+/* 10 matchups for 116 and 10 entries for track 216 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 216);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 216);
+
+/* 10 matchups track 236 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (116, 213, curdate()-1, 45, 'track2', 'edm', 236);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (219, 116, curdate()-1, 45, 'track2', 'edm', 236);
+
+/* 10 entries for track 87 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (88, 213, curdate()-1, 46, 'track2', 'edm', 87);
+
+/* 10 matchups for track 87, 10 matchups for track 187, and 10 entries for track 93 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (87, 187, curdate()-1, 43, 'track2', 'edm', 93);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (187, 87, curdate()-1, 43, 'track2', 'edm', 93);
+
+/* 10 matchups for track 150, 10 matchups for track 148, and 10 entries for track 87 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (150, 148, curdate()-1, 45, 'track2', 'edm', 87);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (148, 150, curdate()-1, 45, 'track2', 'edm', 87);
+
+/* 10 matchups for track 122, 10 matchups for track 123, and 10 entries for track 150 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (122, 123, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'edm', 150);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (123, 122, curdate()-1, 45, 'track2', 'edm', 150);
+
+/* 10 matchups for track 104, 10 matchups for track 105, and 10 entries for track 122 */
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (104, 105, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'edm', 122);
+INSERT INTO matchup (winning_track_id, losing_track_id, timestamp_added, user_id, winning_track_key, genre, entered_track_id) VALUES (105, 104, curdate()-1, 45, 'track2', 'edm', 122);

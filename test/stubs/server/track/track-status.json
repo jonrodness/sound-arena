@@ -1,0 +1,60 @@
+{ 
+    "tracks": { 
+        "1234": { 
+           "competitionStatus": { 
+                "today": {
+                    "entries": { 
+                        "rap": 3 
+                    }, 
+                    "plays": { 
+                        "rap": 3 
+                    } 
+                },
+                "last10Days": { 
+                    "rap": [ 
+                        { 
+                            "date": "Sunday, December 15, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Monday, December 16, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Tuesday, December 17, 2019",
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Wednesday, December 18, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Thursday, December 19, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Friday, December 20, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Saturday, December 21, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Sunday, December 22, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Monday, December 23, 2019", 
+                            "isMinReached": false 
+                        },
+                        { 
+                            "date": "Tuesday, December 24, 2019", 
+                            "isMinReached": true 
+                        } 
+                    ] 
+                } 
+            }
+        }
+    } 
+}

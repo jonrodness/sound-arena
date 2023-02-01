@@ -1,0 +1,14 @@
+/* Add users with checked out tracks whose competitions were started 1 day ago */
+/* To get checked users with expired checked out tracks: SELECT id, competition_genre, competition_timestamp_start, competition_tracks_checked_out FROM user; */
+
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+INSERT INTO user (competition_timestamp_start, competition_tracks_checked_out, competition_genre, competition_track_1_id, competition_track_2_id, auth_id) VALUES (DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 'rap', 220, 221, 'mock');
+

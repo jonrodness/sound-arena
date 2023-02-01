@@ -1,0 +1,13 @@
+{
+    "tracks": {
+        "240009828": {	
+            "id": 240009828,		
+            "streamUrl": "https://www.mockstream.mock"
+        },
+        "34968212": {
+            "id": 34968212,	
+            "streamUrl": "https://www.mockstream.mock"
+        }
+    },
+    "stage": 1
+}

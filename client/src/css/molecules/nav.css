@@ -1,0 +1,37 @@
+.m-nav {
+  background-color: #2e2e2e !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #fff200; }
+  @media (max-width: 750px) {
+    .m-nav__desktopOnly {
+      display: none; } }
+  .m-nav__interiorElement {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  .m-nav__item {
+    color: #ffffff; }
+    .m-nav__item.MuiButton-root {
+      color: #ffffff; }
+
+.m-bottomNav {
+  background-color: #2e2e2e !important;
+  color: #ffffff !important;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  bottom: -1px;
+  border-top: 1px solid #fff200;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.8);
+  justify-content: space-around; }
+  .m-bottomNav button.MuiBottomNavigationAction-root {
+    color: #d9d9d9; }
+    .m-bottomNav button.MuiBottomNavigationAction-root.Mui-selected {
+      color: #fff200; }
+  .m-bottomNav--bottom {
+    bottom: 0; }
+  .m-bottomNav--bottomWithBorder {
+    bottom: -1px; }
+
+.m-navMenu {
+  min-width: 50%; }

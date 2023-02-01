@@ -1,0 +1,13 @@
+.o-matchupInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; }
+  .o-matchupInfo.MuiPaper-root {
+    border: 1px black solid;
+    color: #000000;
+    background-image: linear-gradient(to right, #00ffaa, #cfff00);
+    background-color: #00ffaa;
+    box-shadow: none; }
+  .o-matchupInfo__trackInfo {
+    display: flex;
+    flex-direction: column; }

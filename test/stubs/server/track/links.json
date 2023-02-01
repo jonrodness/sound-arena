@@ -1,0 +1,12 @@
+{
+    "tracks":{
+        "1234":{
+            "links":[
+                {
+                    "url":"https://open.spotify.com/track/1b6Spasdfq4MiEzShOBQLtEhWe",
+                    "type":"spotify"
+                }
+            ]
+        }
+    }
+}

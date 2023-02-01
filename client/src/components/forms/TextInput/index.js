@@ -1,0 +1,1 @@
+export { TextInputComponent as TextInput } from './component'

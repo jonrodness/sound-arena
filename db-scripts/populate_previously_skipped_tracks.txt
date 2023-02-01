@@ -1,0 +1,7 @@
+/* Clear old skipped tracks */
+DELETE FROM skipped_tracks;
+
+/* Save skipped tracks. 241 & 240 will not be populated with enough plays. 242 will be populated with enough plays. */
+INSERT INTO skipped_tracks (track_id, date_skipped, wins, losses, entries, genre, acknowledged) VALUES (240, curdate()-2, 2, 3, 11, 'rap', 0);
+INSERT INTO skipped_tracks (track_id, date_skipped, wins, losses, entries, genre, acknowledged) VALUES (241, curdate()-2, 2, 3, 11, 'rap', 0);
+INSERT INTO skipped_tracks (track_id, date_skipped, wins, losses, entries, genre, acknowledged) VALUES (242, curdate()-2, 2, 3, 11, 'rap', 0);

@@ -1,0 +1,11 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.m-dropzoneContainer {
+    background-color: $lightGrey;
+    border: dashed 1px $grey1;
+
+    & .dropzone {
+        @include padding;
+    }
+}

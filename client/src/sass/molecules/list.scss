@@ -1,0 +1,14 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.m-list {
+    padding-left: 1rem;
+
+    &__item {
+        @include paddingBottom;
+
+        &--bold {
+            font-weight: bold;
+        }
+    }
+}

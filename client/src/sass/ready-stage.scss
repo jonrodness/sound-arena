@@ -1,0 +1,6 @@
+@import './mixins.scss';
+@import './stage.scss';
+
+#ready-stage {
+    @include stage;
+}
