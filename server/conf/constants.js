@@ -1,6 +1,6 @@
 module.exports = {
-    HOSTING_PLATFORM: {
-        GAE: 'GAE',
-        LOCALHOST: 'LOCALHOST'
-    }
-}
+  HOSTING_PLATFORM: {
+    GAE: 'GAE',
+    LOCALHOST: 'LOCALHOST',
+  },
+};

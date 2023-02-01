@@ -10,5 +10,5 @@ module.exports = {
    */
   getLinkTypes(req, res, next) {
     return res.json(LINK_TYPES);
-  }
-}
+  },
+};

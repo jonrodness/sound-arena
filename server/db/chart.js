@@ -1,24 +1,24 @@
-var db = require('./mysql');
 const mysql = require('mysql');
+const db = require('./mysql');
 
 const MATCHUP_VIEWS = {
-    DAYS_1: {
-        DB_FIELD:'matchup_1_day',
-        num: 1
-    },
-    DAYS_10: {
-        DB_FIELD: 'matchup_10_day',
-        num: 10
-    }
+  DAYS_1: {
+    DB_FIELD: 'matchup_1_day',
+    num: 1,
+  },
+  DAYS_10: {
+    DB_FIELD: 'matchup_10_day',
+    num: 10,
+  },
 };
 
 const queries = {
-    /**
+  /**
      * Gets the competition results
      * Only get results with >=50% or if there are results with 0 wins/0 losses in the cases of partial competitions
      */
-    getLatestCompetitionResults: async function(offset, limit, genre) {
-        const query = `
+  async getLatestCompetitionResults(offset, limit, genre) {
+    const query = `
             SELECT 
                 u.name AS artistName, 
                 u.id AS artistId,
@@ -66,14 +66,14 @@ const queries = {
                 ${mysql.escape(offset)}, ${mysql.escape(limit)};
         `;
 
-        const results = await db.queryAsync(query);
-        return results;
-    },
+    const results = await db.queryAsync(query);
+    return results;
+  },
 
-    // Only get results with >=50%
-    // or if there are results with 0 wins/0 losses in the cases of partial competitions
-    getLatestCompetitionMetaData: async function(genre) {
-        const query = `
+  // Only get results with >=50%
+  // or if there are results with 0 wins/0 losses in the cases of partial competitions
+  async getLatestCompetitionMetaData(genre) {
+    const query = `
             SELECT COUNT(*) as count, DATE_FORMAT(date, "%M %d %Y") as date
             FROM competition_results c
             INNER JOIN
@@ -93,15 +93,13 @@ const queries = {
             GROUP BY date
         `;
 
-        const results = await db.queryAsync(query, [genre]);
-        return results;
-    },
+    const results = await db.queryAsync(query, [genre]);
+    return results;
+  },
 
-    getChartDayOptions: function() {
-        return Object.keys(MATCHUP_VIEWS).map(key => {
-            return MATCHUP_VIEWS[key].num;
-        });
-    }    
+  getChartDayOptions() {
+    return Object.keys(MATCHUP_VIEWS).map((key) => MATCHUP_VIEWS[key].num);
+  },
 };
 
 module.exports = queries;

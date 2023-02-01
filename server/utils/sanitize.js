@@ -1,16 +1,16 @@
-const htmlEncode = string => {
-    const map = {
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#x27;',
-        "/": '&#x2F;'
-    };
-    const reg = /[&<>"'/]/ig;
-    return string.replace(reg, match => map[match]);
-}
+const htmlEncode = (string) => {
+  const map = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#x27;',
+    '/': '&#x2F;',
+  };
+  const reg = /[&<>"'/]/ig;
+  return string.replace(reg, (match) => map[match]);
+};
 
 module.exports = {
-    htmlEncode
-}
+  htmlEncode,
+};
