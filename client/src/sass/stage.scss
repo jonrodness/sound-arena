@@ -1,7 +1,0 @@
-@import './mixins.scss'; 
-@import './variables.scss';
-
-@mixin stage {
-    @include flexColumn;
-    flex-grow: 1;
-}

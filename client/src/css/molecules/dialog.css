@@ -1,9 +1,0 @@
-.m-dialog {
-  padding: 1rem; }
-  .m-dialog__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .m-dialog__closeBtn {
-    display: flex;
-    justify-content: flex-end; }

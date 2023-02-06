@@ -1,7 +1,0 @@
-.audio-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1; }
-  .audio-container.isPlayed {
-    background: green; }

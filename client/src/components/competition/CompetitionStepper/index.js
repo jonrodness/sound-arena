@@ -1,1 +1,0 @@
-export { CompetitionStepperContainer as CompetitionStepper } from './container'

@@ -1,1 +1,0 @@
-export { CompetitionHeaderMsgContainer as CompetitionHeaderMsg } from './container'

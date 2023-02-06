@@ -1,1 +1,0 @@
-export { CompetitionPaneContainer as CompetitionPane } from './container'

@@ -1,1 +1,0 @@
-export { CompetitionPlayerHeaderContainer as CompetitionPlayerHeader } from './container'

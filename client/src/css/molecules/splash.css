@@ -1,9 +1,0 @@
-.m-fullPageText {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .m-fullPageText * {
-    text-align: center;
-    max-width: 70%; }

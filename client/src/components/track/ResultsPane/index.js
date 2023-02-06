@@ -1,1 +1,0 @@
-export { ResultsPaneContainer as ResultsPane } from './container'

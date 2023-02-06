@@ -1,8 +1,0 @@
-@import '../variables.scss';
-
-.u-minBreakpoint2 {
-    @media screen and (max-width: $breakpoint2) {
-        display: none;
-    }
-}
-
